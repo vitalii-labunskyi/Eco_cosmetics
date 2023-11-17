@@ -1,3 +1,47 @@
-h1 {
+.h1 {
   @extend %h1;
+}
+
+.h2 {
+  @extend %h2;
+}
+
+.h3 {
+  @extend %h3;
+}
+
+.h4 {
+  @extend %h4;
+}
+
+.h5 {
+  @extend %h5;
+}
+
+.text {
+  @extend %text;
+}
+
+.text2 {
+  @extend %text2;
+}
+
+.text3 {
+  @extend %text3;
+}
+
+.small-text {
+  @extend %small-text;
+}
+
+.menu-text {
+  @extend %menu-text;
+}
+
+.button-text {
+  @extend %button-text;
+}
+
+.decorative-text {
+  @extend %decorative-text;
 }

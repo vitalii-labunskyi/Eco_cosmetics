@@ -1,0 +1,15 @@
+.header {
+  display: block;
+
+  &__picture {
+    height: 267px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../images/img_Mobile/main.png);
+
+    @include onTablet {
+      height: 500px;
+      background-image: url(../images/img_Tablet/main.png);
+    }
+  }
+}
